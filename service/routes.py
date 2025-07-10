@@ -2,10 +2,11 @@
 Controller for routes
 """
 from flask import jsonify, url_for, abort
-from service.common import status
 from service import app
+from service.common import status
 
 COUNTER = {}
+
 
 ############################################################
 # Health Endpoint
